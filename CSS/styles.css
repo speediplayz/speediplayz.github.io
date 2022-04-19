@@ -1,0 +1,109 @@
+/* Yellow */
+/* rgb(rgb(224,192,20)) */
+
+/* Standard Elements */
+
+* {
+	font-family: "Arial";
+}
+h1 {
+	color: white;
+	font-size: 9vw;
+	display: inline;
+}
+h3{
+	color: white;
+	font-size: 35px;
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+
+body {
+	background-image: url("../IMG/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+a{
+	color: white;
+}
+
+/* Nav Bar */
+
+nav ul {
+	list-style-type:none;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	width:18vw;
+	text-align:center;
+	font-size:1vw;
+	background-color:rgb(224,192,20);
+}
+
+nav ul li a {
+	display:block;
+	padding:8px;
+	color:white;
+}
+
+nav ul li a:hover {
+	background-color:rgb(15,15,15);
+	color:White;
+}
+
+#fileList ul{
+	list-style-type: none;
+}
+
+#fileList ul li{
+	display: block;
+	height: 30px;
+	text-align: center;
+	background-color: rgb(224,192,20);
+}
+
+#fileList ul li p{
+	font-size: 1.5vw;
+}
+
+#fileList ul li:hover{
+	background-color: rgb(15,15,15);
+}
+
+/* Classes */
+
+.background{
+	background-color: rgb(15,15,15,0.75);
+}
+
+.center{
+	text-align: center;
+}
+
+/* IDs */
+
+#canv{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: rgb(30,30,30,0.75);
+}
+
+#img{
+	position: absolute;
+	left: 1000000px;
+	top: 19px;
+	display:none;
+}
+
+#icon {
+	width:  12vw;
+	height: 12vw;
+}

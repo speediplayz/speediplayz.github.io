@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+		<title>Home</title>
+	</head>
+	
+	<body>
+		<header class="background" style="height:256px;">
+			<h1 style="padding-left:64px;">Speediplayz</h1>
+			<img id="icon" src="IMG/logo.png" width=224 height=224 style="display:block;float:right;padding:16px 64px 16px 16px;">
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="smdoc.html">Scrap Mechanic Doc</a></li>
+				<li><a href="">SoonTM</a></li>
+				<li><a href="">SoonTM</a></li>
+				<li><a href="">SoonTM</a></li>
+			</ul><br><br>
+		</nav>
+		
+		<main style="height:800px;">
+			<h3 class="center">Scrap Mechanic Function Documentation</h3><br>
+            <div id="fileList" class="background" style="width:13%;padding-top:5px;float:left;">
+                <h3 style="margin-left:3vw;font-size:1.75vw;">File List</h5>
+                <ul>
+                    <li onclick="loadDocumentation(0)"><p>File 1</p></li>
+                    <li onclick="loadDocumentation(1)"><p>File 2</p></li>
+                    <li onclick="loadDocumentation(2)"><p>File 3</p></li>
+                    <li onclick="loadDocumentation(3)"><p>File 4</p></li>
+                    <li onclick="loadDocumentation(4)"><p>File 5</p></li>
+                    <li onclick="loadDocumentation(5)"><p>File 6</p></li>
+                    <li onclick="loadDocumentation(6)"><p>File 7</p></li>
+                    <li onclick="loadDocumentation(7)"><p>File 8</p></li>
+                    <li onclick="loadDocumentation(8)"><p>File 9</p></li>
+                </ul>
+            </div>
+
+            <div class="background" style="display:inline-block;margin-left:1.5vw;width:80vw;text-align:center;">
+                <p id="content">content</p>
+            </div>
+		</main>
+		
+		<footer class="background center">
+			<h3 style="padding-top: 16px;">Links</h3>
+			<a href="https://speediplayz.itch.io"><b>Itch.IO</b></a><br>
+			<a href="https://github.com/speediplayz"><b>Github</b></a><br>
+			<a href="https://youtube.com/channel/UCjR4uUmtgXQBFw_77PB2Rqg"><b>Youtube</b></a><br><br>
+		</footer>
+
+        <script src="JS\documentationManager.js"></script>
+	</body>
+</html>
