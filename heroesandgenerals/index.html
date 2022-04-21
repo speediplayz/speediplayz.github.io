@@ -1,9 +1,129 @@
 <html>
-  <head>
-    
-  </head>
-  
-  <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ/I?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </body>
+	<head>
+		<style>
+		nav ul {
+			list-style-type:none;
+		}
+
+		nav ul li {
+			display: inline-block;
+			float: left;
+			width:18vw;
+			text-align:center;
+			font-size:1vw;
+			background-color:rgb(224,192,20);
+		}
+
+		nav ul li p {
+			display:block;
+			padding:8px;
+			color:white;
+		}
+
+		nav ul li:hover {
+			background-color:rgb(15,15,15);
+			color:White;
+		}
+		.background{
+			background-color: rgb(15,15,15,0.75);
+		}
+
+		.center{
+			text-align: center;
+		}
+		* {
+			font-family: "Arial";
+		}
+		h1 {
+			color: white;
+			font-size: 9vw;
+			display: inline;
+		}
+		h3{
+			color: white;
+			font-size: 35px;
+		}
+		p{
+			color: white;
+			font-size: 20px;
+		}
+
+		body {
+			background-color: rgb(5,5,5);
+		}
+		</style>
+		<title>Heroes & Generals</title>
+	</head>
+	
+	<body>
+		<div id="content">
+			<header class="background center" style="height:256px;">
+				<h1 style="padding-left:64px;">Heroes & Generals</h1>
+			</header>
+			
+			<nav>
+				<ul>
+					<li><p>Home</p></li>
+					<li><p>News</p></li>
+					<li><p>Upcoming Features</p></li>
+					<li><p>Dev Blogs</p></li>
+					<li><p>Events</p></li>
+				</ul>
+			</nav><br><br><br><br><br>
+			
+			<main class="background center" style="padding:6px;">
+				<p>
+				<b>General Description</b><br><br>
+				Heroes & Generals is a free-to-play first-person shooter and real-time strategy video game set in World War II<br>
+				developed and published by Reto-Moto now by TLM since February 3 2022. Reto-Moto was founded by some of the original<br>
+				founders of IO Interactive and the Hitman series.[1] The developers called it a "mass participation game" in contrast<br>
+				to a traditional massively multiplayer online game, where the actions in the FPS-part of the game reflect into the<br>
+				strategy-part.[2] The player can use weapons from Germany, the United States, and the Soviet Union.<br><br>
+				<b>Assault</b><br><br>
+				In assault, one team will be defending from an offensive team, or in rare cases, two offensive teams. The goal of the<br>
+				offensive team is to seize two or three (depending on the map) main control points, while the defensive team has to<br>
+				defend those points. These main control points are linked by smaller strategic positions that must be taken prior to<br>
+				the next successive point being eligible for capture. The offensive team wins if it captures all main control points,<br>
+				while the defensive team can win by either holding out with all main control points until a timer runs out, or capturing<br>
+				all the offensive team's control points. Assault cannot be played by players until their player level is IV. This unlocks<br>
+				the Assault maps, after which all soldiers owned by that player can play Assault, regardless of rank.<br><br>
+				<b>Skirmish</b><br><br>
+				Skirmishes are basic games that can be played by any character that has reached Rank I (i.e. completed one Encounter battle).<br>
+				Skirmishes consist of two teams that each have a spawn point. These teams must then fight for control over three control points <br>
+				01, 02, and 03). When a team is holding a point, a bar for that team at the top of the screen gradually fills up. The more<br>
+				control points occupied, the faster the bar will fill. The game ends when one team succeeds in holding multiple control points<br>
+				for long enough.<br><br>
+				<b>Encounter</b><br><br>
+				The Encounter game mode is a simplified version of a skirmish, designed for new players, but available for play by all. Like a<br>
+				skirmish, a team wins when it has held control points long enough to fill a bar at the top of the screen, but unlike a skirmish,<br>
+				there is only one control point (01). This allows new players to get a feel for the game, and will let them proceed to Skirmishes<br>
+				following their first Encounter round.
+				</p>
+			</main>
+			
+			<footer class="background center">
+				<h3 style="padding-top: 16px;">Links</h3>
+				<a href=""><b>Official Website</b></a><br>
+				<a href=""><b>Discord</b></a><br>
+				<a href=""><b>Youtube</b></a><br><br>
+			</footer>
+		</div>
+		
+		<div>
+			<video id="video" controls width="640" height="360" muted="muted" style="display:none;">
+				<source src="Rick Roll Short.mp4" type="video/mp4">
+			</video>
+			<script>
+			window.onclick=(e)=>{load();}
+			window.onscroll=(e)=>{load();}
+			function load(){
+				document.getElementById("content").style = "display:none";
+				let vid = document.getElementById("video");
+				//video.muted = false;
+				video.play();
+				video.style = "display:block";
+			}
+			</script>
+		</div>
+	</body>
 </html>
