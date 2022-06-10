@@ -1,0 +1,10 @@
+#canv{
+	background-color: rgb(235,235,235);
+}
+
+#img{
+	position: absolute;
+	left: 1000000px;
+	top: 19px;
+	display:none;
+}

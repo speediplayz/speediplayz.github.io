@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+	<body>
+		<h4>Instructions:</h4>
+		<ul>
+			<li>Select generation method</li>
+			<li>Input parameters</li>
+			<li>Press 'Generate'</li>
+			<li>Create a new blueprint in-game</li>
+			<li>Navigate to that blueprint's folder</li>
+			<li>Open the blueprint.json</li>
+			<li>Replace the json with your clipboard</li>
+		</ul><br>
+
+		<form>
+			Generate: <select id="type">
+				<option value="Cube">Cube</option>
+				<option value="Sphere">Sphere</option>
+				<option value="Cylinder">Cylinder</option>
+				<option value="Cone">Cone</option>
+				<option value="Image">Image</option>
+			</select><br><br>
+
+			<canvas id="canv" width="320" height="280"></canvas><br><br>
+			<p id="output"></p>
+		</form>
+
+		<canvas id="img" width="16" height="16"></canvas>
+		
+		
+		<script src="canvasRecorder.js"></script>
+		<script src="vector2.js"></script>
+		<script src="PlayerGUI.js"></script>
+		<script src="shapegeneration.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
